@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,200;1,300;1,500;1,600&display=swap');
+
+html{
+  background-color: #101010;
+  width: 100%;
+  font-size:10px;
+ }
+ 
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Kanit", sans-serif;
+  }
+
+ .features-heading{
+  font-size: 2vw;
+  color:white;
+  text-transform: uppercase;
+  margin-left:7%;
+  margin-top:6%;
+  letter-spacing: 1.5px;
+ line-height: 1.1;
+ } 
+
+.payment  h1{
+  color:white;
+  font-size:2.5vw;
+  letter-spacing: 1.5px;
+}
+
+
+.payment{
+  display: grid;
+  grid-template-columns: 30%  30%  30% ;
+  line-height: 1.1;
+  column-gap: 2%;
+  row-gap:6%;
+  justify-content: center;
+  margin-top:8%;
+}
+.onilne {
+display: flex;
+border: 0.8rem dashed   #4C27AE;
+border-collapse: separate;
+border-radius:30px;
+justify-content: center;
+  align-items: center;
+  grid-column: 1/3;
+}
+.onilne img{
+  width:15%;
+  height: 55%;
+}
+.automatic{
+  background-color: #ED7E02;
+  border-radius:30px;
+  align-self: center;
+  text-align: center;
+   
+}
+.automatic img{
+  width:30% ;
+  height: 30% ;
+  margin-top: 5px;
+
+   
+}
+.card{
+  display: flex;
+  border: 0.8rem dashed  #4C27AE;
+  border-collapse: separate;
+  border-radius:30px;
+  grid-column: 2/4;
+  justify-content: center;
+  align-items: center;
+  gap:7%;
+}
+@media(max-width:700px){
+   
+  .card{
+    border: 0.3rem dotted  #4C27AE;
+  }
+  .onilne{
+    border: 0.3rem dotted  #4C27AE;
+  }
+   
+}
+@media(max-width:500px){
+   
+      
+   
+}
+.card img{
+  width:15%;
+  height:60%;
+}
+.fees{
+  background-color: #ED7E02;
+  border-radius:30px;
+  align-self: center;
+  text-align: center;
+}
+.fees img{
+   height:10vw;
+}
+
+.digital{
+  background-color: white;
+  display: flex;
+  width:90%;
+  height:30vw;
+  margin: 10% 5%;
+  margin-right:5%;
+  align-items: center;
+  gap:10vw;
+  border-radius: 40px;
+  position: relative;
+}
+.digital .pillar {
+  width:  27vw;
+  height:26vw;
+  margin-left:20%;
+}
+.content{
+  color:#101010;
+ 
+
+  
+}
+.content h3{
+  font-size: 4vw;
+  text-transform: uppercase;
+  margin-bottom : 7%;
+
+}
+.content p{
+  letter-spacing: 1.2px;
+  font-size: 1.3vw;
+  line-height: 1.1;
+}
+.start-2{
+  font-size:2.6vw ;
+  text-transform: uppercase;
+  background-color: #ED7E02;
+  color:white;
+  font-weight: 900;
+  padding:2% 5%;
+  margin-top:6%;
+  border-radius: 60px;
+  border: 1px solid #ED7E02;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+.start-2:hover{
+   box-shadow: 0 10px 20px 2px   #3e3b3b ;
+   scale:1.02;
+}
+.start-2:active{
+  scale:0.98;
+}
+
+.sun-buller{
+ position: absolute;
+ width:20vw;
+ height:15vw;
+ top:50%;
+ right:0;
+ border-radius: 40px;
+}

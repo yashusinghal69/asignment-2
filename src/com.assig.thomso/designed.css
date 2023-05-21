@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,200;1,300;1,500;1,600&display=swap');
+
+html{
+  background-color: #101010;
+  width: 100%;
+  font-size:10px;
+ }
+ 
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Kanit", sans-serif;
+  }
+
+  .header{
+    color:white;
+    font-weight: 900;
+    font-size:4vw;
+    text-transform: uppercase;
+    margin-left: 8%;
+    line-height: 1.1;
+
+  }
+
+ .cartoon-containers{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 8%;
+  margin-left:4vw;
+  margin-right:3vw;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 900;
+ }
+ 
+ .cartoon-1{
+      background-color: #4C27AE;
+      padding: 2% 5%; 
+      font-size: 2vw;
+      text-align: center;
+      border-radius: 40px;
+      
+    }
+ .cartoon-2{
+   border: 8px dashed #4C27AE;
+   padding: 5% 1%; 
+   font-size: 2vw;
+   text-align: center;
+   border-radius: 40px;
+  }
+ .cartoon-3{
+   padding: 5% 1%; 
+   font-size: 2vw;
+   text-align: center;
+   border-radius: 40px;
+   border: 8px dashed #4C27AE;
+ }
+ .cartoon-1 img{
+   width:26vw;
+
+ }
+ .cartoon-2 img{
+   width:19vw;
+
+ }
+ .cartoon-3 img{
+   width:19vw;
+
+ }
+
+ @media(max-width:700px){
+  .cartoon-3{
+    border-radius: 20px;;
+    border: 3px dotted #4C27AE;
+ }
+  .cartoon-2{
+   border-radius: 20px;;
+    border: 3px dotted #4C27AE;
+ }
+  .cartoon-1{
+   border-radius: 25px;;
+    
+ }
+
+
+}
